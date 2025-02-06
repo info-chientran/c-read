@@ -1,34 +1,33 @@
 {
-  "name": "pdf-view",
-  "version": "0.1.0",
-  "private": true,
-  "author": {
-    "name": "Chien Tran"
-  },
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@react-pdf-viewer/core": "3.12.0",
-    "@react-pdf-viewer/default-layout": "3.12.0",
-    "next": "14.2.23",
-    "pdfjs-dist": "2.16.105",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
-  },
-  "devDependencies": {
-    "@types/node": "22.13.1",
-    "@types/react": "19.0.8",
-    "@types/react-dom": "18.3.0",
-    "eslint": "8.57.0",
-    "eslint-config-next": "14.2.2",
-    "postcss": "8.5.1",
-    "prettier-plugin-tailwindcss": "0.6.9",
-    "sass": "1.83.4",
-    "tailwindcss": "4.0.3",
-    "typescript": "5.7.3"
-  }
+    "name": "c-read",
+    "version": "0.1.0",
+    "private": true,
+    "author": {
+        "name": "Chien Tran"
+    },
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@react-pdf-viewer/core": "3.12.0",
+        "@react-pdf-viewer/default-layout": "3.12.0",
+        "next": "14.2.2",
+        "pdfjs-dist": "3.4.120",
+        "react": "18.3.1",
+        "react-dom": "18.3.1"
+    },
+    "devDependencies": {
+        "@types/node": "22.12.0",
+        "@types/react": "18.3.1",
+        "@types/react-dom": "18.3.1",
+        "eslint": "8.57.0",
+        "eslint-config-next": "14.2.2",
+        "postcss": "8.5.1",
+        "sass": "1.83.4",
+        "tailwindcss": "3.4.1",
+        "typescript": "5.7.3"
+    }
 }
