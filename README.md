@@ -1,6 +1,7 @@
 # C-Read
 
 * Node: 22.12.0
+* Preview: [click here](https://c-read.vercel.app/)
 
 ## Getting Started
 

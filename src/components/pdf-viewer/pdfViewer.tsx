@@ -13,7 +13,7 @@ const PdfViewer: React.FC<Props> = ({ fileUrl, plugins, className }) => {
     return (
         <Worker
             workerUrl={
-                'https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js'
+                '/pdf.min.js'
             }
         >
             <div className={className}>
