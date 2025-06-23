@@ -1,22 +1,20 @@
 'use client';
 
-import PdfViewer from '@/components/pdf-viewer/pdfViewer';
-import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
-
-import '@react-pdf-viewer/default-layout/lib/styles/index.css';
+import Link from 'next/link';
 import '@/assets/scss/app/home.scss';
 
 export default function Home() {
-    const file = '/front_end_handbook.pdf';
-    const defaultLayoutPluginInstance = defaultLayoutPlugin({
-        setInitialTab: (doc) => Promise.resolve(0),
-    });
-
     return (
-        <PdfViewer
-            fileUrl={file}
-            plugins={[defaultLayoutPluginInstance]}
-            className="home"
-        />
+        <div className='h-screen flex justify-center items-center bg-[#f6f8fa]'>
+            <div className='max-w-4xl flex gap-x-8 w-full'>
+                <div className='bg-white px-8 py-4 rounded-md w-1/2 shadow-md'>
+                    <Link className='bg-[#00c0b8] text-white py-1 rounded-sm w-full inline-block text-center' href="/view/epub">Epub</Link>
+                </div>
+
+                <div className='bg-white px-8 py-4 rounded-md w-1/2 shadow-md'>
+                    <Link className='bg-[#009cec] text-white py-1 rounded-sm w-full inline-block text-center' href="/view/pdf">Pdf</Link>
+                </div>
+            </div>
+        </div>
     );
 }
